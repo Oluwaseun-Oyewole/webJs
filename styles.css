@@ -120,11 +120,11 @@ img{
 }
 
 .nav-toggle{
+    background:red;
     background:transparent;
     color: var(--clr-grey-1);
     font-size:1.5rem;
     border:none;
-    /* border-color:transparent; */
     cursor: pointer;
     transition:var(--transition)
 }
