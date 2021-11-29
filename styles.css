@@ -283,7 +283,7 @@ header{
   }
 
   .section {
-    padding-bottom: 5rem;
+    /* padding-bottom: 5rem; */
   }
 
 /* media queries */
