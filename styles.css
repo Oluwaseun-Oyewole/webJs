@@ -520,7 +520,7 @@ header{
 .containers > div{
 
   margin-top:1rem;
-  box-shadow: 0 3px 5px rgb(0 0 0 / 0.1);
+  box-shadow: 0 3px 7px rgb(0 0 0 / 0.2);
   height: 20rem;
   display: grid;
   padding:1rem;
@@ -533,4 +533,77 @@ header{
   font-family: var(--ff-secondary);
   line-height: 1.5rem;
   margin-top:1rem;
+}
+
+
+/* tour promo countdown */
+
+
+/* section */
+.section {
+  padding: 5rem 0;
+}
+
+ .section-centers {
+  width: 90vw;
+  margin: 5rem auto;
+  max-width: 1170px;
+} 
+
+
+.gift-img {
+  margin-bottom: 2rem;
+}
+.gift-info h3 {
+  text-transform: uppercase;
+  color: var(--clr-primary-3);
+  margin-bottom: 1rem;
+}
+.gift-info p {
+  color: var(--clr-grey-6);
+}
+.date {
+  color: var(--clr-grey-5);
+  font-size: 0.85rem;
+}
+@media screen and (min-width: 992px) {
+  .section-centers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 3rem;
+    width: 95vw;
+  }
+  .gift-img {
+    margin-bottom: 0;
+  }
+}
+.gift-info p {
+  margin: 2rem 0;
+}
+.deadline {
+  display: flex;
+}
+.deadline-format {
+  background: var(--clr-grey-1);
+  color: var(--clr-white);
+  margin-right: 1rem;
+  width: 5rem;
+  height: 5rem;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.deadline-format span {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+}
+
+.deadline h4:not(.expired) {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+  letter-spacing: var(--spacing);
 }
