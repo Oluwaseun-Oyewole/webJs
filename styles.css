@@ -492,7 +492,7 @@ header{
 .containers{
   display:grid;
   place-items: center;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2,1fr);
   grid-gap: 1rem;  
 }
 
@@ -525,6 +525,7 @@ header{
   width: 90vw;
   margin: 5rem auto;
   max-width: 1170px;
+  margin-top:-5rem;
 } 
 
 
