@@ -513,6 +513,41 @@ header{
 }
 
 
+@media screen and (min-width: 453px) {
+  .containers{
+    display:grid;
+    grid-template-columns: 1fr;
+  }
+
+  .image-container{
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media screen and (min-width: 640px) {
+  .containers{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .image-container{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .containers{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .image-container{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
 /* tour promo countdown */
 
 
